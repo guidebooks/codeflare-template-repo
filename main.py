@@ -1,7 +1,7 @@
 import ray
 import requests
 
-ray.init()
+ray.init("auto")
 
 @ray.remote
 class Counter:
