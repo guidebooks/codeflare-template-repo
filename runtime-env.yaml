@@ -1,0 +1,15 @@
+---
+#either pip or conda can be specified
+#pip:
+#- pendulum
+#- requests==2.27.1
+conda:
+  dependencies:
+  - toolz
+  - dill
+  - pip
+  - pip:
+    - pendulum
+    - ray[serve]
+env_vars:
+  TF_WARNINGS: none
