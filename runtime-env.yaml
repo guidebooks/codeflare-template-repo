@@ -15,7 +15,6 @@ conda:
     - pandas
     - torch>=1.11.0
     - torchdata
-    - torchtext==0.12.0
     - torchvision==0.13.0
     - pytorch-lightning==1.6.1
     - protobuf<4.0.0
