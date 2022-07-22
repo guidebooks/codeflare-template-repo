@@ -19,4 +19,6 @@ Broadly, these are the main components of this repo:
 
 3. src/ can act as the placeholder for the rest of your python code. or you can create an other additional directories here. `--working-dir ${CUSTOM_WORKING_DIR}` flag in the above command makes sure that we copy the entire working directory over to the CodeFlare cluster, so all files under your directory will be available to you. 
 
+## About this example
 
+Refer to https://github.com/mlflow/mlflow/blob/master/examples/pytorch/BertNewsClassification/bert_classification.py
