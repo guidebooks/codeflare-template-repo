@@ -1,0 +1,16 @@
+name: experiment_1
+entrypoint: python main.py # Entrypoint shell command to execute
+metadata:
+  key: value
+runtime_env:
+  env_vars:
+    TF_WARNINGS: none  
+  #either pip or conda can be specified
+  #pip:
+  #- pendulum
+  #- requests==2.27.1
+  conda:
+    dependencies:
+    - pip
+    - pip:
+      - sklearn
